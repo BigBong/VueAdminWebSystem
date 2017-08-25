@@ -41,13 +41,13 @@ router.afterEach(transition => {
   NProgress.done();
 });
 
-Vue.http.interceptors.push((request, next) => {
-  NProgress.start();
+// Vue.http.interceptors.push((request, next) => {
+//   NProgress.start();
 
-  next((response)=>{
-    NProgress.done();
-  });
-});
+//   next((response)=>{
+//     NProgress.done();
+//   });
+// });
 
 new Vue({
   //el: '#app',

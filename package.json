@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "vue admin web system",
   "author": "frodo",
+  "private": true,
   "license": "MIT",
   "scripts": {
     "dev": "node build/dev-server.js",
