@@ -5,11 +5,7 @@
 </template>
 
 <script>
-export default {
-  name: 'app'
-}
-</script>
-
-<style lang="scss"> 
-  @import "src/styles/mixin.scss";
-</style>
+	export default {
+	  name: 'app'
+	}
+</script> 
